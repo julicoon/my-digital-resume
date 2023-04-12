@@ -1,0 +1,33 @@
+from pathlib import Path
+
+import streamlit as st
+from PIL import Image
+
+# --- PATH SETTINGS ---
+current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+css_file = current_dir / "styles" / "main.css"
+resume_file = current_dir / "assets" / "Motivational_Letter.pdf"
+profile_pic = current_dir / "assets" / "Foto-bewerbung.png"
+
+# --- GENERAL SETTINGS ---
+PAGE_TITLE = "Digital CV / Julia Peham"
+PAGE_ICON = "👩‍🔬"
+Name = "Julia Peham"
+DESCRIPTION = """
+Behaviour, Neurobiology and Cognition master's student at the University of Vienna, assisting as a tutor and intern."""
+EMAIL = "julia.peham@univie.ac.at"
+
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+
+st.title("Hello there!")
+
+
+
+
+
+
+
+
+
+
+
